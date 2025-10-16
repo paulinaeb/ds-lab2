@@ -127,7 +127,6 @@ The Flask application provides REST API access:
 See `requirements.txt` for complete dependency list. Key packages:
 - Flask 3.1.2
 - Pandas 2.3.3
-- Kafka-python 2.2.15 (for streaming module)
 
 ## 🔄 Future Enhancements
 
