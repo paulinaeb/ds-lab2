@@ -95,20 +95,6 @@ The SQLite database (`jobs_database.db`) contains:
 | `scraped_at` | TEXT | Data collection timestamp |
 | `imported_at` | DATETIME | Database import timestamp |
 
-## 🌊 Stream Mining Module
-
-The `sm/` directory contains infrastructure for **future extensions**:
-
-- **Real-time Data Ingestion:** Kafka-based streaming pipeline
-- **Live Job Processing:** Stream processing for incoming job data
-- **Scalable Architecture:** Designed for high-volume data streams
-- **Event-driven Updates:** Real-time database updates from job feeds
-
-**Current Status:** Foundation implemented, will be extended for:
-- Live job feed integration
-- Real-time analytics dashboard updates
-- Stream processing with Apache Kafka
-- Event-driven data pipeline orchestration
 
 ## 🛠️ Technical Stack
 
@@ -116,7 +102,6 @@ The `sm/` directory contains infrastructure for **future extensions**:
 - **Database:** SQLite with optimized indexes
 - **Frontend:** HTML5, CSS3, JavaScript (Vanilla)
 - **Data Processing:** Pandas, JSON
-- **Streaming (Future):** Apache Kafka
 - **Deployment:** Local development server
 
 ## 📈 Database Statistics
@@ -124,8 +109,6 @@ The `sm/` directory contains infrastructure for **future extensions**:
 - **Total Jobs:** 93,078
 - **Unique Companies:** 19,547
 - **Unique Locations:** 5,866
-- **Top Location:** Dublin, Ireland (2,285 jobs)
-- **Top Company:** TieTalent (1,246 jobs)
 - **Geographic Coverage:** European job market focus
 
 ## 🔧 API Endpoints
