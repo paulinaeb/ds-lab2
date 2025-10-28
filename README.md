@@ -1,6 +1,6 @@
 # 💼 Jobs Database Project
 
-A comprehensive data pipeline and web application for analyzing job market data with real-time streaming capabilities.
+A comprehensive data pipeline and web application for analyzing job market data.
 
 ## 📁 Project Structure
 
@@ -24,11 +24,6 @@ ds-lab-2/
 │
 ├── 🔍 Query Tools
 │   └── main.py               # Main application entry point
-│
-├── 🌊 Stream Mining (Future Extension)
-│   ├── producer.py           # Kafka data producer
-│   ├── consumer.py           # Kafka data consumer  
-│   └── values.yaml          # Kafka configuration
 │
 ├── ⚙️ Configuration
 │   ├── requirements.txt      # Python dependencies
@@ -128,23 +123,6 @@ See `requirements.txt` for complete dependency list. Key packages:
 - Flask 3.1.2
 - Pandas 2.3.3
 
-## 🔄 Future Enhancements
-
-1. **Stream Mining Extensions:**
-   - Real-time job feed integration
-   - Live dashboard updates
-   - Trend analysis and alerts
-
-2. **Analytics Improvements:**
-   - Interactive charts and visualizations
-   - Job market trend analysis
-   - Salary insights integration
-
-3. **Search Enhancements:**
-   - Advanced filtering options
-   - Saved searches and alerts
-   - Machine learning-based recommendations
-
 ## 📞 Usage Examples
 
 **Search for cybersecurity jobs:**
@@ -158,5 +136,3 @@ http://localhost:5000/api/company/TieTalent
 ```
 
 ---
-
-*This project demonstrates modern data pipeline architecture with web interface capabilities and streaming infrastructure foundation.*
