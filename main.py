@@ -57,7 +57,6 @@ def main_menu():
         elif has_data:
             print("4. 🔄 Rebuild Database (Clean & Import)")
         
-        print("5. 🌊 Stream Mining Setup (Future)")
         print("6. 📋 View Project Structure")
         print("7. ❓ Help & Documentation")
         print("0. 🚪 Exit")
@@ -73,8 +72,6 @@ def main_menu():
             run_analytics()
         elif choice == '4' and has_data:
             setup_database()
-        elif choice == '5':
-            stream_mining_info()
         elif choice == '6':
             show_project_structure()
         elif choice == '7':
@@ -150,34 +147,7 @@ def setup_database():
         print("❌ Required setup files not found in utils/ directory!")
     
     input("\nPress Enter to return to main menu...")
-
-def stream_mining_info():
-    """Show stream mining information"""
-    print("\n🌊 STREAM MINING MODULE")
-    print("=" * 40)
-    print()
-    print("📁 Location: sm/ directory")
-    print("🎯 Purpose: Real-time data ingestion and processing")
-    print()
-    print("📋 Current Components:")
-    print("   • producer.py - Kafka data producer")
-    print("   • consumer.py - Kafka data consumer")
-    print("   • values.yaml - Kafka configuration")
-    print()
-    print("🚧 Development Status: Foundation Implemented")
-    print()
-    print("🔮 Future Extensions:")
-    print("   • Live job feed integration")
-    print("   • Real-time dashboard updates")
-    print("   • Stream processing with Apache Kafka")
-    print("   • Event-driven data pipeline orchestration")
-    print("   • Trend analysis and alerts")
-    print()
-    print("💡 The streaming infrastructure is designed to handle")
-    print("   high-volume job data streams and provide real-time")
-    print("   updates to the web application dashboard.")
     
-    input("\nPress Enter to return to main menu...")
 
 def show_project_structure():
     """Display project structure"""
@@ -205,11 +175,6 @@ ds-lab-2/
 ├── 🔍 Query Tools
 │   ├── query_database.py      # Advanced database queries
 │   └── main.py               # Main application entry point
-│
-├── 🌊 Stream Mining (Future Extension)
-│   ├── producer.py           # Kafka data producer
-│   ├── consumer.py           # Kafka data consumer  
-│   └── values.yaml          # Kafka configuration
 │
 └── ⚙️ Configuration
     ├── requirements.txt      # Python dependencies
