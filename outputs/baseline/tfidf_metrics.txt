@@ -1,0 +1,12 @@
+TF-IDF + COSINE SIMILARITY METRICS
+============================================================
+
+Number of documents: 155350
+Vocabulary size: 1000
+Sparsity: 0.8544
+
+Similarity statistics (sample of 100 docs):
+  Mean: 0.1657
+  Std: 0.1155
+  Min: 0.0000
+  Max: 0.9552
