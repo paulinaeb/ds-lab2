@@ -1,0 +1,41 @@
+EXPLORATORY DATA ANALYSIS SUMMARY
+============================================================
+
+Generated: 2025-10-28 17:32:31
+Dataset: data_cleaned.json
+
+Total Records: 155,350
+Total Columns: 13
+
+Columns:
+  - Skill (object)
+  - Company Name (object)
+  - Poster Id (object)
+  - Detail URL (object)
+  - Description (object)
+  - Primary Description (object)
+  - Job State (object)
+  - Created At (object)
+  - Location (object)
+  - Title (object)
+  - Company Logo (object)
+  - Scraped At (object)
+  - Insight (object)
+
+Missing Values:
+  No missing values
+
+Unique Values per Column:
+  - Skill: 41,465
+  - Company Name: 20,401
+  - Poster Id: 25,200
+  - Detail URL: 99,603
+  - Description: 91,488
+  - Primary Description: 50,364
+  - Job State: 2
+  - Created At: 91,734
+  - Location: 6,018
+  - Title: 58,287
+  - Company Logo: 60,509
+  - Scraped At: 74,467
+  - Insight: 21
