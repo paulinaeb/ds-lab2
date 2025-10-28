@@ -51,6 +51,7 @@ def main_menu():
             print("1. 🌐 Start Web Application (Flask)")
             print("2. 🔍 Interactive Database Queries")
             print("3. 📊 Advanced Analytics (Pandas)")
+            print("5. 🔬 Exploratory Data Analysis (EDA)")
         
         if has_data and not has_db:
             print("4. 🗄️ Setup Database (Clean & Import Data)")
@@ -72,6 +73,8 @@ def main_menu():
             run_analytics()
         elif choice == '4' and has_data:
             setup_database()
+        elif choice == '5' and has_data:
+            run_eda()
         elif choice == '6':
             show_project_structure()
         elif choice == '7':
@@ -119,8 +122,18 @@ def run_analytics():
     print("3. Job Market Overview")
     print("4. Export Reports")
     
-    # This could be extended with specific analytics functions
     input("\n⚠️  Advanced analytics will be implemented in future updates.\nPress Enter to continue...")
+
+def run_eda():
+    """Run EDA script"""
+    print("\n🔬 Running Exploratory Data Analysis...")
+    try:
+        subprocess.run([sys.executable, 'utils/eda.py'], check=True)
+    except subprocess.CalledProcessError as e:
+        print(f"❌ EDA script failed: {e}")
+    except FileNotFoundError:
+        print("❌ utils/eda.py not found!")
+    input("\nPress Enter to return to main menu...")
 
 def setup_database():
     """Setup or rebuild the database"""
