@@ -1,0 +1,40 @@
+LDA TOPIC MODELING METRICS
+============================================================
+
+Number of topics: 10
+Number of documents: 155350
+Vocabulary size: 1000
+Perplexity: 569.57
+Log-likelihood: -218423340.37
+
+Topics (top 10 words each):
+
+Topic 1:
+  security, development, working, knowledge, information, management, customers, training, good, application
+
+Topic 2:
+  status, gender, disability, equal, sexual, age, orientation, religion, employment, global
+
+Topic 3:
+  management, risk, compliance, business, data, information, regulatory, internal, ensure, skills
+
+Topic 4:
+  cybersecurity, safety, systems, technical, management, projects, group, knowledge, development, company
+
+Topic 5:
+  data, service, information, protection, support, role, privacy, working, job, recruitment
+
+Topic 6:
+  days, working, health, benefits, salary, office, insurance, company, time, offer
+
+Topic 7:
+  security, cyber, cybersecurity, threat, information, incident, response, threats, technical, detection
+
+Topic 8:
+  business, customer, ll, solutions, role, customers, sales, people, clients, world
+
+Topic 9:
+  data, software, development, product, engineering, ai, design, teams, company, technical
+
+Topic 10:
+  cloud, network, infrastructure, security, technical, solutions, systems, support, management, knowledge

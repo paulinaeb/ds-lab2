@@ -1,0 +1,14 @@
+WORD2VEC EMBEDDING METRICS
+============================================================
+
+Vector size: 100
+Window size: 5
+Vocabulary size: 161349
+Number of documents: 155350
+Valid documents with embeddings: 155293
+
+Similarity statistics (sample of 100 docs):
+  Mean: 0.9167
+  Std: 0.0887
+  Min: 0.2850
+  Max: 0.9987
