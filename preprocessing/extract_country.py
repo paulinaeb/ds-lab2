@@ -84,7 +84,7 @@ METRO_TO_COUNTRY = {
     "Tallinn Metropolitan Area": "Estonia",
     
     # Czech Republic
-    "Greater Hradec Kralove Area": "Czech Republic",
+    "Greater Hradec Kralove Area": "Czechia",
     
     # Slovakia
     "Bratislava Metropolitan Area": "Slovakia"
