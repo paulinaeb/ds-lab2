@@ -1,0 +1,133 @@
+TOP SKILLS PER TOPIC
+============================================================
+
+TOPIC 0 (240 documents)
+------------------------------------------------------------
+  English: 41
+  Problem Solving: 15
+  Attention to Detail: 10
+  Troubleshooting: 10
+  Analytical Skills: 10
+  Engineering: 10
+  Software Development: 9
+  Cybersecurity: 9
+  Salesforce.com: 8
+  Sales Processes: 7
+
+TOPIC 1 (124 documents)
+------------------------------------------------------------
+  Analytical Skills: 31
+  Information Management: 28
+  Information Security: 19
+  Physical Security: 12
+  Cybersecurity: 10
+  Data Privacy: 9
+  Network Security: 6
+  Law Enforcement: 5
+  Information Security Management System (ISMS): 4
+  Certified Information Security Manager (CISM): 4
+
+TOPIC 2 (1275 documents)
+------------------------------------------------------------
+  English: 191
+  Data Privacy: 111
+  Analytical Skills: 81
+  Information Security: 65
+  Attention to Detail: 62
+  Cybersecurity: 49
+  Risk Management: 47
+  Regulatory Requirements: 39
+  Law: 32
+  Communication: 32
+
+TOPIC 3 (96 documents)
+------------------------------------------------------------
+  Reasoning Skills: 42
+  English: 41
+  Application Security: 33
+  Countermeasures: 31
+  Security Information and Event Management (SIEM): 7
+  Data Privacy: 3
+  Analytical Skills: 3
+  Coaching: 2
+  Business Analysis: 2
+  Java: 2
+
+TOPIC 4 (158 documents)
+------------------------------------------------------------
+  Linux: 39
+  English: 19
+  Linux Kernel: 11
+  Presentations: 11
+  Presentation Skills: 10
+  English writing: 10
+  Troubleshooting: 9
+  Software Development: 9
+  Security Information and Event Management (SIEM): 9
+  Cryptography: 9
+
+TOPIC 5 (2056 documents)
+------------------------------------------------------------
+  Cybersecurity: 229
+  Security Information and Event Management (SIEM): 184
+  English: 171
+  Network Security: 102
+  Linux: 99
+  Information Security: 96
+  Cloud Computing: 95
+  Troubleshooting: 90
+  Cyber-security: 80
+  Vulnerability: 80
+
+TOPIC 6 (3132 documents)
+------------------------------------------------------------
+  Cybersecurity: 512
+  Information Security: 178
+  English: 130
+  Linux: 129
+  Network Security: 96
+  Cyber-security: 96
+  Cyber: 93
+  Troubleshooting: 85
+  Analytical Skills: 83
+  Security: 79
+
+TOPIC 7 (222 documents)
+------------------------------------------------------------
+  Communication: 30
+  Training: 21
+  Attention to Detail: 14
+  Cybersecurity: 13
+  Analytical Skills: 13
+  English: 10
+  Literacy: 10
+  Problem Solving: 8
+  E-Learning: 6
+  Mathematics: 6
+
+TOPIC 8 (711 documents)
+------------------------------------------------------------
+  English: 105
+  Sales: 86
+  Presentations: 44
+  Sales Processes: 32
+  Account Management: 32
+  Business: 30
+  Cybersecurity: 25
+  Communication: 25
+  Software as a Service (SaaS): 22
+  Cloud Computing: 20
+
+TOPIC 9 (1986 documents)
+------------------------------------------------------------
+  English: 366
+  Analytical Skills: 101
+  Cybersecurity: 94
+  Communication: 82
+  Troubleshooting: 73
+  Problem Solving: 69
+  Attention to Detail: 58
+  Sales: 53
+  Linux: 51
+  Python (Programming Language): 40
+

@@ -1,0 +1,43 @@
+MOST SIMILAR JOB PAIRS (Word2Vec)
+============================================================
+
+Rank 1: Similarity = 1.0000
+  Job A: Consultant Cyber Security Technology (w/m/d) @ PwC Deutschland (Germany)
+  Job B: Consultant Cyber Security Technology (w/m/d) @ PwC Deutschland (Germany)
+
+Rank 2: Similarity = 1.0000
+  Job A: Consultant Cyber Security Technology (w/m/d) @ PwC Deutschland (Germany)
+  Job B: Consultant Cyber Security Technology (w/m/d) @ PwC Deutschland (Germany)
+
+Rank 3: Similarity = 1.0000
+  Job A: Consultant Cyber Security Technology (w/m/d) @ PwC Deutschland (Germany)
+  Job B: Consultant Cyber Security Technology (w/m/d) @ PwC Deutschland (Germany)
+
+Rank 4: Similarity = 1.0000
+  Job A: Consultant Cyber Security Technology (w/m/d) @ PwC Deutschland (Germany)
+  Job B: Consultant Cyber Security Technology (w/m/d) @ PwC Deutschland (Saarland)
+
+Rank 5: Similarity = 1.0000
+  Job A: Consultant Cyber Security Technology (w/m/d) @ PwC Deutschland (Germany)
+  Job B: Consultant Cyber Security Technology (w/m/d) @ PwC Deutschland (Germany)
+
+Rank 6: Similarity = 1.0000
+  Job A: Consultant Cyber Security Technology (w/m/d) @ PwC Deutschland (Germany)
+  Job B: Consultant Cyber Security Technology (w/m/d) @ PwC Deutschland (Germany)
+
+Rank 7: Similarity = 1.0000
+  Job A: Consultant Cyber Security Technology (w/m/d) @ PwC Deutschland (Germany)
+  Job B: Consultant Cyber Security Technology (w/m/d) @ PwC Deutschland (Germany)
+
+Rank 8: Similarity = 1.0000
+  Job A: EIB Trainee - Human Resources Directorate -  Employee Relations - Procedures Unit - based in Luxembourg @ European Investment Bank (EIB) (Hungary)
+  Job B: EIB Trainee - Human Resources Directorate -  Employee Relations - Procedures Unit - based in Luxembourg @ European Investment Bank (EIB) (Ireland)
+
+Rank 9: Similarity = 1.0000
+  Job A: Consultant Cyber Security Technology (w/m/d) @ PwC Deutschland (Germany)
+  Job B: Consultant Cyber Security Technology (w/m/d) @ PwC Deutschland (Germany)
+
+Rank 10: Similarity = 1.0000
+  Job A: Consultant Cyber Security Technology (w/m/d) @ PwC Deutschland (Germany)
+  Job B: Consultant Cyber Security Technology (w/m/d) @ PwC Deutschland (Germany)
+

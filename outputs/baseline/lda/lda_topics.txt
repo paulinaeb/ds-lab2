@@ -1,0 +1,226 @@
+LDA TOPICS - TOP 15 WORDS PER TOPIC
+============================================================
+
+Number of topics: 10
+Generated: 2025-11-18 19:30:45
+
+TOPIC 0
+------------------------------------------------------------
+Top words:
+  status                         2642.707834
+  gender                         2485.299704
+  disability                     2079.096994
+  equal                          2048.992619
+  sexual                         1919.185024
+  employment                     1809.927599
+  sexual orientation             1786.170295
+  religion                       1736.670650
+  orientation                    1689.627069
+  age                            1681.513064
+  global                         1601.024279
+  origin                         1425.456070
+  race                           1419.952782
+  protected                      1413.691123
+  opportunity                    1329.672442
+
+Manual label: [TO BE ASSIGNED]
+============================================================
+
+TOPIC 1
+------------------------------------------------------------
+Top words:
+  security                       2597.961624
+  information                    2420.806718
+  information security           1677.053723
+  en                             1168.942089
+  management                     974.899669
+  colleagues                     647.864569
+  organization                   644.576202
+  working                        616.502161
+  et                             569.692897
+  knowledge                      542.097548
+  la                             495.795131
+  netherlands                    491.234878
+  airbus                         476.848231
+  employment                     464.583963
+  und                            434.286513
+
+Manual label: [TO BE ASSIGNED]
+============================================================
+
+TOPIC 2
+------------------------------------------------------------
+Top words:
+  data                           10054.168393
+  risk                           7086.761419
+  management                     7028.930292
+  compliance                     6593.752911
+  information                    4318.761855
+  business                       3909.551177
+  skills                         2980.259276
+  support                        2962.986811
+  legal                          2896.984376
+  ensure                         2594.977934
+  protection                     2583.838598
+  internal                       2582.660275
+  regulatory                     2482.918250
+  data protection                2403.963579
+  financial                      2396.539699
+
+Manual label: [TO BE ASSIGNED]
+============================================================
+
+TOPIC 3
+------------------------------------------------------------
+Top words:
+  company                        1149.217381
+  security                       624.677221
+  ll                             432.323712
+  best                           431.779561
+  time                           419.422553
+  apply                          389.294651
+  high                           352.276680
+  career                         339.299544
+  data                           332.914903
+  help                           318.684743
+  offer                          316.298181
+  opportunity                    312.516610
+  privacy                        288.484389
+  bending                        286.298277
+  role                           286.250355
+
+Manual label: [TO BE ASSIGNED]
+============================================================
+
+TOPIC 4
+------------------------------------------------------------
+Top words:
+  software                       4166.279345
+  development                    2600.826232
+  engineering                    2591.219009
+  ai                             2035.628039
+  product                        2024.719521
+  code                           1292.772899
+  open                           1255.942887
+  design                         1248.685081
+  security                       1201.444500
+  company                        1165.993584
+  data                           1130.040767
+  source                         1109.887907
+  performance                    1038.113795
+  test                           1026.989110
+  teams                          976.433146
+
+Manual label: [TO BE ASSIGNED]
+============================================================
+
+TOPIC 5
+------------------------------------------------------------
+Top words:
+  security                       28532.822200
+  cloud                          6085.614855
+  technical                      4724.271493
+  infrastructure                 4425.209300
+  systems                        4201.178040
+  network                        4184.138340
+  management                     3966.431110
+  knowledge                      3700.136131
+  solutions                      3611.793827
+  tools                          3560.828390
+  cyber                          3336.380949
+  skills                         3098.166542
+  cybersecurity                  3013.879628
+  azure                          2837.554534
+  teams                          2788.760872
+
+Manual label: [TO BE ASSIGNED]
+============================================================
+
+TOPIC 6
+------------------------------------------------------------
+Top words:
+  security                       9454.203861
+  development                    4842.265009
+  knowledge                      4817.028388
+  management                     4650.261040
+  training                       4286.869989
+  company                        3857.287042
+  systems                        3767.953730
+  technical                      3522.877858
+  support                        3504.543498
+  customers                      3431.475675
+  safety                         3366.249616
+  good                           3364.484640
+  projects                       3360.809256
+  cyber                          3275.315649
+  solutions                      3260.280683
+
+Manual label: [TO BE ASSIGNED]
+============================================================
+
+TOPIC 7
+------------------------------------------------------------
+Top words:
+  service                        3602.101017
+  uk                             1589.745635
+  working                        1575.187825
+  civil                          1550.828020
+  role                           1450.360761
+  new                            1424.328242
+  job                            1415.537930
+  required                       1223.383987
+  information                    1218.175412
+  support                        1182.439282
+  security                       1135.643776
+  candidates                     1126.096234
+  civil service                  1115.593821
+  recruitment                    1057.301905
+  scheme                         976.194074
+
+Manual label: [TO BE ASSIGNED]
+============================================================
+
+TOPIC 8
+------------------------------------------------------------
+Top words:
+  business                       5139.593622
+  sales                          3981.415080
+  customer                       3692.022904
+  solutions                      3261.504757
+  technical                      3115.364214
+  customers                      2341.739838
+  product                        2151.237766
+  technology                     2099.512012
+  digital                        1952.360388
+  teams                          1944.802195
+  services                       1879.387933
+  cybersecurity                  1751.733159
+  role                           1675.151956
+  strong                         1612.173854
+  clients                        1571.633535
+
+Manual label: [TO BE ASSIGNED]
+============================================================
+
+TOPIC 9
+------------------------------------------------------------
+Top words:
+  working                        4951.108792
+  support                        3858.574837
+  role                           3805.465171
+  people                         3700.011033
+  ll                             3573.413032
+  skills                         3444.795719
+  company                        3223.346910
+  join                           3180.918379
+  environment                    2926.681870
+  career                         2925.497537
+  help                           2756.250443
+  make                           2701.510168
+  benefits                       2641.549975
+  world                          2637.951689
+  time                           2585.568173
+
+Manual label: [TO BE ASSIGNED]
+============================================================
+

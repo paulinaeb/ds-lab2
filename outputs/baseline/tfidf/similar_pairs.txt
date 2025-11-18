@@ -1,0 +1,43 @@
+MOST SIMILAR JOB PAIRS
+============================================================
+
+Rank 1: Similarity = 1.0000
+  Job A: Cloud Data Engineer @ BIP (Italy)
+  Job B: Cloud Data Engineer @ BIP (Italy)
+
+Rank 2: Similarity = 1.0000
+  Job A: Technical Product Marketing Manager - Cybersecurity @ Canonical (Bulgaria)
+  Job B: Technical Product Marketing Manager - Cybersecurity @ Canonical (Netherlands)
+
+Rank 3: Similarity = 1.0000
+  Job A: Network Security Engineer @ Vattenfall (Sweden)
+  Job B: Network Security Engineer @ Vattenfall (Netherlands)
+
+Rank 4: Similarity = 1.0000
+  Job A: Technical Product Marketing Manager - Cybersecurity @ Canonical (Bulgaria)
+  Job B: Technical Product Marketing Manager - Cybersecurity @ Canonical (Estonia)
+
+Rank 5: Similarity = 1.0000
+  Job A: Network Security Engineer @ Vattenfall (Netherlands)
+  Job B: Network Security Engineer @ Vattenfall (Germany)
+
+Rank 6: Similarity = 1.0000
+  Job A: Network Security Engineer @ Vattenfall (Sweden)
+  Job B: Network Security Engineer @ Vattenfall (Germany)
+
+Rank 7: Similarity = 1.0000
+  Job A: Technical Product Marketing Manager - Cybersecurity @ Canonical (Estonia)
+  Job B: Technical Product Marketing Manager - Cybersecurity @ Canonical (Netherlands)
+
+Rank 8: Similarity = 1.0000
+  Job A: Consultant Cyber Security (Financial Services) (w/m/d) @ EY (Germany)
+  Job B: Consultant Cyber Security (Financial Services) (w/m/d) @ EY (Germany)
+
+Rank 9: Similarity = 1.0000
+  Job A: Graduate Information Security Officer @ SBS (United Kingdom)
+  Job B: Graduate Information Security Officer @ SBS (United Kingdom)
+
+Rank 10: Similarity = 1.0000
+  Job A: Security Engineer - Operation Center  (m/w/d) @ Westnetz (Germany)
+  Job B: Security Engineer - Operation Center  (m/w/d) @ Westnetz (Germany)
+

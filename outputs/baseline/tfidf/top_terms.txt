@@ -1,0 +1,55 @@
+TOP 50 TERMS BY AVERAGE TF-IDF SCORE
+============================================================
+
+Rank   Term                           Avg TF-IDF   Type      
+------------------------------------------------------------
+1      security                       0.074476     unigram   
+2      data                           0.033674     unigram   
+3      management                     0.032405     unigram   
+4      support                        0.026982     unigram   
+5      business                       0.026483     unigram   
+6      technical                      0.026234     unigram   
+7      information                    0.025780     unigram   
+8      development                    0.025459     unigram   
+9      skills                         0.025079     unigram   
+10     company                        0.024579     unigram   
+11     knowledge                      0.024078     unigram   
+12     solutions                      0.024013     unigram   
+13     systems                        0.023681     unigram   
+14     working                        0.023395     unigram   
+15     cybersecurity                  0.022480     unigram   
+16     role                           0.022219     unigram   
+17     cyber                          0.021504     unigram   
+18     cloud                          0.021223     unigram   
+19     services                       0.020621     unigram   
+20     risk                           0.020592     unigram   
+21     compliance                     0.020343     unigram   
+22     network                        0.019863     unigram   
+23     customers                      0.019783     unigram   
+24     customer                       0.019098     unigram   
+25     training                       0.018955     unigram   
+26     teams                          0.018538     unigram   
+27     environment                    0.018536     unigram   
+28     service                        0.018182     unigram   
+29     new                            0.017953     unigram   
+30     software                       0.017876     unigram   
+31     infrastructure                 0.017717     unigram   
+32     technology                     0.017712     unigram   
+33     ensure                         0.017359     unigram   
+34     projects                       0.017148     unigram   
+35     strong                         0.016806     unigram   
+36     application                    0.016735     unigram   
+37     digital                        0.016716     unigram   
+38     people                         0.016675     unigram   
+39     including                      0.016622     unigram   
+40     global                         0.016535     unigram   
+41     tools                          0.016319     unigram   
+42     project                        0.016233     unigram   
+43     looking                        0.015952     unigram   
+44     requirements                   0.015928     unigram   
+45     professional                   0.015791     unigram   
+46     years                          0.015766     unigram   
+47     group                          0.015632     unigram   
+48     offer                          0.015485     unigram   
+49     design                         0.015410     unigram   
+50     ability                        0.015298     unigram   

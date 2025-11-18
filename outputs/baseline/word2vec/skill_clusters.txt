@@ -1,0 +1,43 @@
+SKILL CLUSTERING RESULTS
+============================================================
+
+Total skills analyzed: 22
+Number of clusters: 5
+
+
+Cluster 0 (5 skills):
+----------------------------------------
+  - linux
+  - troubleshooting
+  - vulnerability
+  - networking
+  - firewalls
+
+Cluster 1 (1 skills):
+----------------------------------------
+  - cyber
+
+Cluster 2 (10 skills):
+----------------------------------------
+  - cybersecurity
+  - cyber-security
+  - sales
+  - presentations
+  - security
+  - business
+  - engineering
+  - training
+  - risk management
+  - recruiting
+
+Cluster 3 (3 skills):
+----------------------------------------
+  - english
+  - communication
+  - german
+
+Cluster 4 (3 skills):
+----------------------------------------
+  - java
+  - html
+  - javascript

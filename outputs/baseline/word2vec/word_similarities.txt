@@ -1,0 +1,135 @@
+WORD SIMILARITIES - TOP 10 SIMILAR WORDS
+============================================================
+
+Generated: 2025-11-18 19:33:51
+
+
+'security':
+----------------------------------------
+  cybersecurity        0.7033
+  cyber                0.6726
+  vulnerability        0.6403
+  compliancy           0.6287
+  sspm                 0.6279
+  safety               0.6262
+  threat               0.6175
+  intigriti            0.6128
+  iam                  0.6119
+  siem                 0.6002
+
+'cloud':
+----------------------------------------
+  aws                  0.8143
+  azure                0.8130
+  gcp                  0.7471
+  onprem               0.7449
+  oci                  0.7431
+  hyperscaler          0.7366
+  paas                 0.7359
+  iaas                 0.7322
+  premise              0.7221
+  alibaba              0.7180
+
+'python':
+----------------------------------------
+  bash                 0.8900
+  scripting            0.8889
+  java                 0.8681
+  perl                 0.8553
+  programming          0.8536
+  scala                0.8375
+  powershell           0.8337
+  kotlin               0.8259
+  ruby                 0.8205
+  flask                0.8115
+
+'analyst':
+----------------------------------------
+  engineer             0.7372
+  csoc                 0.6874
+  consultant           0.6817
+  officer              0.6759
+  manager              0.6606
+  purposeas            0.6576
+  underwriter          0.6562
+  overviewas           0.6480
+  iroc                 0.6436
+  specialist           0.6409
+
+'engineer':
+----------------------------------------
+  architect            0.7701
+  analyst              0.7372
+  administrator        0.7354
+  technician           0.6875
+  consultant           0.6859
+  developer            0.6608
+  sdet                 0.6535
+  fullstack            0.6521
+  pentester            0.6467
+  researcher           0.6435
+
+'network':
+----------------------------------------
+  dmz                  0.7598
+  firewall             0.7305
+  wan                  0.7299
+  qos                  0.7278
+  lan                  0.7240
+  networking           0.7183
+  routers              0.7068
+  dwdm                 0.7046
+  sdn                  0.6874
+  routing              0.6870
+
+'data':
+----------------------------------------
+  elt                  0.6444
+  lineage              0.6275
+  lakes                0.6261
+  metadata             0.6218
+  ingestion            0.6216
+  pii                  0.6212
+  glossary             0.6157
+  processing           0.6078
+  labeling             0.6078
+  cleansing            0.5982
+
+'management':
+----------------------------------------
+  managementyou        0.6985
+  gnfr                 0.6877
+  ilm                  0.6862
+  csms                 0.6858
+  governance           0.6846
+  sgsi                 0.6528
+  planning             0.6523
+  otrs                 0.6370
+  servicesmanage       0.6303
+  rms                  0.6294
+
+'risk':
+----------------------------------------
+  rcsa                 0.7588
+  quantification       0.7101
+  risks                0.7069
+  rcsas                0.7036
+  counterparty         0.6945
+  assesses             0.6928
+  bcm                  0.6806
+  quantifying          0.6795
+  governance           0.6766
+  orbc                 0.6741
+
+'compliance':
+----------------------------------------
+  regulatory           0.8040
+  governance           0.7282
+  fatca                0.7234
+  compliancy           0.7219
+  csrd                 0.7177
+  crs                  0.7018
+  adherence            0.6947
+  apheresis            0.6946
+  securityensure       0.6932
+  cssf                 0.6912

@@ -1,0 +1,133 @@
+TOP JOB TITLES PER TOPIC
+============================================================
+
+TOPIC 0 (240 documents)
+------------------------------------------------------------
+  Payroll Tax Compliance Analyst | EMEA: 4
+  Legal Counsel, FinTech: 4
+  Senior Incident Response Specialist, Bangkok Based (Relocation Provided): 4
+  Senior Salesforce Developer: 4
+  Customer Success Manager, Deel IT: 3
+  You have a tutor: 3
+  Senior Product Operations Manager, FinCrime: 3
+  Senior Application Security Engineer (Bangkok based, relocation provided): 3
+  Paid Social Manager: 3
+  Team Lead, Payroll Compliance | EMEA: 3
+
+TOPIC 1 (124 documents)
+------------------------------------------------------------
+  Freelance Information Management Advisor (ZZP): 29
+  Co -worker Information Protection: 3
+  Security Officer: 3
+  Information Security Officer: 3
+  Prevention and security agent (M / F): 2
+  Business Information Security Officer: 2
+  Security specialist: 1
+  Cryptovaluta Specialist Oost-Nederland: 1
+  Senior IT Auditor (EDP): 1
+  Senior Controllers - Meet & Greet 30 September: 1
+
+TOPIC 2 (1275 documents)
+------------------------------------------------------------
+  Legal counel: 15
+  Data Protection Officer: 9
+  Junior Auditor: 7
+  Project Manager: 6
+  Compliance Officer: 6
+  Information Security Consultant: 5
+  Information Security Specialist: 5
+  Information Security Officer: 5
+  Security Expert (Cat. I or II): 5
+  Grc consulting: 5
+
+TOPIC 3 (96 documents)
+------------------------------------------------------------
+  Security Engineer Intern: 13
+  2026 Grad Program, Cyber Security: 12
+  Security Engineer Intern (remote): 10
+  Security Engineer: 8
+  IT Security & Privacy Engineer: 6
+  Security Engineer (remote): 6
+  Security Engineer Intern (relocate to London): 4
+  Cyber Security, Industry Placement: 3
+  Security Engineering Intern: 2
+  Security engineer: 2
+
+TOPIC 4 (158 documents)
+------------------------------------------------------------
+  Junior Linux Kernel Engineer - Ubuntu: 10
+  Product Manager - Cloud Native: 6
+  Security Software Engineer: 6
+  Linux Cryptography and Security Engineer: 6
+  Senior/Staff/Principal Engineer: 6
+  Security Risk Management Specialist: 6
+  Lead Golang Software Engineer, Commercial Systems: 5
+  Engineering Manager - Ubuntu Security: 5
+  Staff Security Operations Engineer: 4
+  Technical Product Marketing Manager - Cybersecurity: 4
+
+TOPIC 5 (2056 documents)
+------------------------------------------------------------
+  Cyber Security Engineer: 34
+  Security Engineer: 28
+  Network Engineer: 24
+  Network Security Engineer: 18
+  Penetration Tester: 18
+  Cyber Security Analyst: 16
+  Senior Security Engineer: 15
+  DevOps Engineer: 14
+  Security Operations Center Analyst: 13
+  Senior Network Engineer: 13
+
+TOPIC 6 (3132 documents)
+------------------------------------------------------------
+  Network Security Engineer: 13
+  Consultant Cyber Security Technology (w/m/d): 11
+  Cybersecurity engineer: 10
+  Information Security Consultant: 10
+  Security Engineer: 10
+  Penetration Tester: 9
+  Cyber Security Engineer: 8
+  Cyber Security Specialist: 7
+  Cyber Security Consultant: 7
+  Security expert: 7
+
+TOPIC 7 (222 documents)
+------------------------------------------------------------
+  Cyber Security Trainee Placement Programme: 6
+  Information Officer: 4
+  Awareness and Prevention Practitioner, Child Exploitation (Shropshire, West Mercia): 2
+  Royal Navy Applied Physiologist / Nutritionist: 2
+  Security Officer: 2
+  Call Center Agent - Vaccination UK: 2
+  Legal Department Assistant: 2
+  Medical Administrator / Receptionist - Citydoc Medical: 2
+  Trainee Cyber Security: 2
+  Summer Intern Security Consultant: 2
+
+TOPIC 8 (711 documents)
+------------------------------------------------------------
+  German speaking Online Ads Account Manager in Barcelona w/Relocation Bonus: 10
+  Business Development Manager: 6
+  Account Manager: 6
+  Accuent executive: 5
+  Dirty reproductive development: 5
+  Executive Sales: 4
+  Key Account Manager: 4
+  Solutions Architect: 4
+  Cloud Ai Infrastructure Sales Executive - SMB - UK: 4
+  Sales Representative – Cold Calling & Lead Generation: 3
+
+TOPIC 9 (1986 documents)
+------------------------------------------------------------
+  Cyber Security Engineer: 12
+  Senior Software Engineer: 8
+  Security Engineer: 7
+  IT Support Specialist: 7
+  DevOps Engineer: 6
+  Software Engineering Specialist - Human Data: 6
+  Temporary Dutch Videogame Tester (based in Spain): 6
+  Java Developer: 5
+  Python Developer: 5
+  Security Software Engineer - Tech Foundations: 5
+

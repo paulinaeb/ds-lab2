@@ -1,0 +1,33 @@
+TF-IDF + COSINE SIMILARITY METRICS
+============================================================
+
+Generated: 2025-11-18 18:46:05
+Database: jobs_database.db
+
+--- DATASET ---
+Total documents: 10,000
+Sample size: 10,000
+
+--- REPRESENTATION QUALITY ---
+Vocabulary size: 5,000
+Feature dimensionality: 5,000
+Sparsity: 0.9538
+Avg document length: 536.8 words
+Median document length: 489.0 words
+
+--- SIMILARITY STATISTICS ---
+Mean: 0.0769
+Median: 0.0700
+Std Dev: 0.0430
+Min: 0.0000
+Max: 1.0000
+25th percentile: 0.0491
+75th percentile: 0.0960
+90th percentile: 0.1265
+95th percentile: 0.1498
+99th percentile: 0.2119
+
+--- COMPUTATIONAL COST ---
+Training time: 32.46s
+Inference time: 17.27s
+Memory usage: 8.81 MB

@@ -1,0 +1,38 @@
+WORD2VEC + COSINE SIMILARITY METRICS
+============================================================
+
+Generated: 2025-11-18 19:34:41
+Database: jobs_database.db
+
+--- DATASET ---
+Total documents: 10,000
+Sample size: 10,000
+
+--- MODEL CONFIGURATION ---
+Algorithm: Skip-gram
+Vector size: 100
+Window size: 5
+Min count: 5
+Epochs: 10
+
+--- REPRESENTATION QUALITY ---
+Vocabulary size: 17,952 words
+Vocabulary coverage: 25.59%
+Embedding dimension: 100
+Representation: Dense (vs. sparse TF-IDF)
+
+--- SIMILARITY STATISTICS ---
+Mean: 0.9244
+Median: 0.9362
+Std Dev: 0.0582
+Min: 0.2397
+Max: 1.0000
+25th percentile: 0.9124
+75th percentile: 0.9530
+90th percentile: 0.9642
+95th percentile: 0.9697
+99th percentile: 0.9779
+
+--- COMPUTATIONAL COST ---
+Training time: 178.92s
+Inference time: 70.48s
