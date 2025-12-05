@@ -195,6 +195,5 @@ For detailed methodology & references, see project documentation.
 
 - Implement BERT/transformer-based models
 - Add cross-validation for evaluation
-- Implement recommendation system
 - Add model comparison visualizations
 - Export results to LaTeX tables for publication
