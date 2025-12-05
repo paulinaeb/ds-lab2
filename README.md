@@ -1,77 +1,162 @@
-# 💼 Jobs Database Project
 
-A comprehensive data pipeline and web application for analyzing job market data.
+# 💼 Cybersecurity Jobs Analysis
 
-## 📁 Project Structure
+A comprehensive data science project implementing baseline NLP methods for analyzing and comparing cybersecurity job descriptions from the European market.
 
-```
-ds-lab-2/
-├── 📊 Web Application
-│   ├── web_app.py              # Flask web server
-│   └── templates/              # HTML templates
-│       ├── index.html          # Dashboard homepage
-│       ├── search.html         # Job search interface
-│       ├── companies.html      # Companies overview
-│       └── locations.html      # Locations overview
-│
-├── 🗄️ Database & Data Processing
-│   ├── jobs_database.db        # SQLite database 
-│   ├── data.json              # Original raw job data
-│   ├── data_cleaned.json      # Processed job data
-│   └── utils/
-│       ├── clean_json.py      # Data cleaning utilities
-│       └── create_database.py # Database setup and import
-│
-├── 🔍 Query Tools
-│   └── main.py               # Main application entry point
-│
-├── ⚙️ Configuration
-│   ├── requirements.txt      # Python dependencies
-│   └── venv/                # Virtual environment
-```
+## 🎯 Project Objectives
+
+This project implements and compares three baseline NLP methods for analyzing cybersecurity job descriptions:
+
+1. **TF-IDF + Cosine Similarity** - Sparse bag-of-words representation
+2. **LDA Topic Modeling** - Latent semantic topic discovery
+3. **Word2Vec Embeddings** - Dense semantic word representations
+
+**Research Goals:**
+- Extract meaningful patterns from 155K+ job descriptions
+- Compare baseline methods using standardized evaluation metrics
+- Establish performance benchmarks for future transformer-based models
+- Enable job similarity search and recommendation systems
 
 ## 🚀 Quick Start
 
-### **Web Application**
+### Prerequisites
 
-Start the Flask web server:
+- Python 3.11+
+- Virtual environment (recommended)
+- ~2GB disk space for database and outputs
 
-```bash
-# Activate virtual environment (if not already active)
-venv\Scripts\activate
+### Installation
 
-# Run the web application
+```powershell
+# Clone repository
+git clone https://github.com/paulinaeb/ds-lab2
+cd ds-lab2
+
+# Create and activate virtual environment
+python -m venv venv
+.\venv\Scripts\activate
+
+# Install dependencies
+pip install -r requirements.txt
+```
+
+## 📊 Data Pipeline
+
+### 1. Database Setup
+
+```powershell
+# Create SQLite database from JSON data
+python utils/create_database.py
+```
+
+**Database Schema:**
+- **Table:** `jobs` (155,350 records)
+- **Key Columns:** id, title, company_name, location, description, skill, created_at
+- **Processed Columns:** cleaned_description, cleaned_skills, country
+
+### 2. Exploratory Data Analysis
+
+```powershell
+# Run comprehensive EDA
+python utils/eda.py
+
+# EDA includes:
+# - Company distribution analysis
+# - Location/country mapping (41 metro areas)
+# - Job title frequency analysis
+# - Skill extraction and ranking
+# - Temporal patterns
+# - Description length statistics
+# - Job state distribution
+```
+
+### 3. Data Preprocessing
+
+```powershell
+# Clean skill field (remove LinkedIn artifacts)
+python preprocessing/clean_skills.py
+
+# Clean job descriptions (remove boilerplate)
+python preprocessing/clean_description.py
+
+# Standardize locations to country level
+python preprocessing/extract_country.py
+```
+
+**Preprocessing Details:**
+- **Skills:** Removes "Skills:", "+X more", "X of Y skills match..."
+- **Descriptions:** Removes 19 common boilerplate phrases
+- **Locations:** Maps 41 metropolitan areas to 15 countries
+- **Non-destructive:** Creates new columns (cleaned_skills, cleaned_description, country)
+
+## 🤖 Baseline Methods
+
+### Method 1: TF-IDF + Cosine Similarity
+
+**Purpose:** Sparse bag-of-words representation for document similarity
+
+```powershell
+# Run TF-IDF baseline (full dataset)
+python baseline/tfidf_baseline.py
+
+# Run on sample for faster execution
+python baseline/tfidf_baseline.py --sample 10000
+```
+
+### Method 2: LDA Topic Modeling
+
+**Purpose:** Discover latent semantic topics in job descriptions
+
+```powershell
+# Run LDA baseline (default: 10 topics)
+python baseline/lda_baseline.py --sample 10000
+
+# Find optimal number of topics
+python baseline/lda_baseline.py --find-optimal-k --sample 10000
+
+# Custom topic count
+python baseline/lda_baseline.py --n-topics 15 --sample 10000
+```
+
+
+### Method 3: Word2Vec Embeddings
+
+**Purpose:** Dense semantic word representations for similarity and clustering
+
+```powershell
+# Run Word2Vec baseline
+python baseline/word2vec_baseline.py --sample 10000
+
+# Custom embedding size
+python baseline/word2vec_baseline.py --vector-size 200 --sample 10000
+```
+
+### Reproducibility
+
+All methods use **fixed random seeds** (seed=42) for reproducible results:
+- TF-IDF: Deterministic (no randomness)
+- LDA: `random_state=42` in LatentDirichletAllocation
+- Word2Vec: `seed=42` in Word2Vec model
+
+## 🌐 Web Application
+
+```powershell
+# Start Flask server
 python web_app.py
 ```
 
-🌐 **Access at:** http://localhost:5000
+**Access at:** http://localhost:5000
 
+**Features:**
+- Dashboard with database statistics
+- Full-text search across 155K job descriptions
+- Company and location filtering
+- Direct links to original LinkedIn postings
 
-## ✨ Features
-
-### 🌐 **Web Interface**
-- **Dashboard:** Overview statistics and top companies/locations
-- **Search:** Real-time job search with keyword filtering
-- **Companies:** Browse jobs by company with statistics
-- **Locations:** Explore job opportunities by geographic location
-- **Responsive Design:** Mobile-friendly interface
-- **Direct Links:** Access to original LinkedIn job postings
-
-### 📊 **Data Analytics**
-- **93,078+ Job Records** from 19,547 companies across 5,866 locations
-- **SQLite Database** with optimized indexes for fast queries
-- **RESTful API** endpoints for programmatic access
-- **Export Capabilities** for CSV data export
-
-### 🔍 **Search & Filtering**
-- Full-text search across job titles, descriptions, and companies
-- Location-based filtering
-- Company-specific job listings
-- Relevance-based result ranking
 
 ## 🗄️ Database Schema
 
-The SQLite database (`jobs_database.db`) contains:
+The SQLite database (jobs_database.db) contains:
 
 | Field | Type | Description |
 |-------|------|-------------|
@@ -79,10 +164,13 @@ The SQLite database (`jobs_database.db`) contains:
 | `title` | TEXT | Job title |
 | `company_name` | TEXT | Company name |
 | `location` | TEXT | Job location |
+| `country` | TEXT | Standardized country name |
 | `description` | TEXT | Full job description |
+| `cleaned_description` | TEXT | Preprocessed description |
 | `primary_description` | TEXT | Short job summary |
 | `detail_url` | TEXT | LinkedIn job URL (unique) |
-| `skill` | TEXT | Required skills |
+| `skill` | TEXT | Required skills (raw) |
+| `cleaned_skills` | TEXT | Preprocessed skills |
 | `job_state` | TEXT | Job status (LISTED/etc.) |
 | `poster_id` | TEXT | Job poster ID |
 | `company_logo` | TEXT | Company logo URL |
@@ -90,49 +178,23 @@ The SQLite database (`jobs_database.db`) contains:
 | `scraped_at` | TEXT | Data collection timestamp |
 | `imported_at` | DATETIME | Database import timestamp |
 
+## 📝 Citation & Methodology
+
+For detailed methodology & references, see project documentation.
 
 ## 🛠️ Technical Stack
 
-- **Backend:** Python Flask
-- **Database:** SQLite with optimized indexes
-- **Frontend:** HTML5, CSS3, JavaScript (Vanilla)
-- **Data Processing:** Pandas, JSON
-- **Deployment:** Local development server
+- **Language:** Python 3.11
+- **NLP:** scikit-learn 1.3.0, gensim 4.3.0
+- **Data Processing:** pandas 2.0.3, numpy 1.24.3
+- **Visualization:** matplotlib 3.7.1, seaborn 0.12.2, wordcloud 1.9.0
+- **Database:** SQLite 3.42+
+- **Web Framework:** Flask 3.1.2
 
-## 📈 Database Statistics
+## 🔜 Future Work
 
-- **Total Jobs:** 93,078
-- **Unique Companies:** 19,547
-- **Unique Locations:** 5,866
-- **Geographic Coverage:** European job market focus
-
-## 🔧 API Endpoints
-
-The Flask application provides REST API access:
-
-- `GET /` - Dashboard homepage
-- `GET /search` - Job search interface
-- `GET /api/search?q={query}&limit={n}` - JSON search API
-- `GET /companies` - Companies overview
-- `GET /locations` - Locations overview
-- `GET /api/company/{name}` - Company-specific jobs
-
-## 📋 Requirements
-
-See `requirements.txt` for complete dependency list. Key packages:
-- Flask 3.1.2
-- Pandas 2.3.3
-
-## 📞 Usage Examples
-
-**Search for cybersecurity jobs:**
-```
-http://localhost:5000/api/search?q=cybersecurity&limit=10
-```
-
-**Get all TieTalent jobs:**
-```
-http://localhost:5000/api/company/TieTalent
-```
-
----
+- Implement BERT/transformer-based models
+- Add cross-validation for evaluation
+- Implement recommendation system
+- Add model comparison visualizations
+- Export results to LaTeX tables for publication
